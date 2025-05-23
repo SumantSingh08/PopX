@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import authService from '../appwrite/auth';
 import { useDispatch } from 'react-redux';
 import { login } from '../store/authSlice';
-import Input from '../components/input';
+import Input from '../components/Input';
 import {useForm} from 'react-hook-form'
 import Button from '../components/Button';
 function Signup() {
