@@ -10,7 +10,7 @@ function Button({
 }) {
 
     return (
-        <button  className={` px-3 py-1 rounded-ld ${bgColor} ${text}, ${className}`} {...props}>
+        <button  className={` px-3 py-2 rounded-ld ${bgColor} ${text}, ${className}`} {...props}>
             {children}
         </button>
     )
